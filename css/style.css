@@ -9,32 +9,6 @@
     color: cyan;
 }
 
-/* BOTONES DEL HEADER */
-
-.botones {
-    background-color: black;
-    margin: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.botones li {
-    display: inline-block;
-    height: 30px;
-    width: 75px;
-}
-
-.botones a {
-    text-decoration: none;
-    color: blueviolet;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    position: relative;
-    top: 6px;
-}
-
 /* NOTICIAS DEL LADO IZQUIERDO */
 
 .noticiaIzquierda {
@@ -132,124 +106,6 @@
     left: 15px;
 }
 
-/* SUGERENCIAS */
-
-.sugerencia {
-    border: 1px white solid;
-    text-align: center;
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-        "h2 h2"
-        "nombreSug correoSug"
-        "nombreSug correoSug"
-        "textSug textSug"
-        "botonEnvSug botonLimSug"
-        "h3 h3";
-}
-
-.nombreSug {
-    grid-area: nombreSug;
-    position: relative;
-    left: 200px;
-}
-
-.correoSug {
-    grid-area: correoSug;
-    position: relative;
-    right: 200px;
-
-}
-
-.textSug {
-    grid-area: textSug;
-    margin: auto;
-    width: 1200px;
-}
-
-.botonEnvSug {
-    grid-area: botonEnvSug;
-    margin: auto;
-    width: 150px;
-    height: 30px;
-    position: relative;
-    left: 220px;
-}
-
-.botonLimSug {
-    grid-area: botonLimSug;
-    margin: auto;
-    width: 150px;
-    height: 30px;
-    position: relative;
-    right: 150px;
-}
-
-.sugerencia h3 {
-    grid-area: h3;
-}
-
-.sugerencia h2 {
-    grid-area: h2;
-}
-
-/* SE PARTE */
-
-.seParte {
-    border: 1px white solid;
-    text-align: center;
-    display: grid;
-    gap: 15px;
-    grid-template-areas:
-        "nombreSep apellidoSep"
-        "correoSep contraSep"
-        "condSep condSep"
-        "parrafoSep parrafoSep"
-        "suscriSep suscriSep";
-}
-
-.nombreSep {
-    grid-area: nombreSep;
-    position: relative;
-    left: 200px;
-
-}
-
-.apellidoSep {
-    grid-area: apellidoSep;
-    position: relative;
-    right: 200px;
-
-}
-
-.correoSep {
-    grid-area: correoSep;
-    position: relative;
-    left: 165px;
-
-}
-
-.contraSep {
-    grid-area: contraSep;
-    position: relative;
-    right: 205px;
-
-}
-
-.parrafoSep {
-    grid-area: parrafoSep;
-}
-
-.condSep {
-    grid-area: condSep;
-}
-
-.suscriSep {
-    grid-area: suscriSep;
-    margin: auto;
-    width: 300px;
-}
-
 /* NOSOTROS */
 
 .marPad {
@@ -305,62 +161,9 @@
         margin: auto;
     }
 
-    /* SUGERENCIAS */
-
-    .nombreSug {
-        left: auto;
-    }
-
-    .correoSug {
-        right: auto;
-    }
-
-    .textSug {
-        width: auto;
-    }
-
-    .botonEnvSug {
-        left: auto;
-    }
-
-    .botonLimSug {
-        right: auto;
-    }
-
-    /* SE PARTE */
-
-    .nombreSep {
-        left: auto;
-        bottom: 10px;
-    }
-
-    .apellidoSep {
-        right: auto;
-        bottom: 5px;
-    }
-
-    .correoSep {
-        left: auto;
-    }
-
-    .contraSep {
-        right: auto;
-        top: 5px;
-    }
 }
 
 /* QUERIES ESPECIFICOS */
-/* TABLETA */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-    /* TEXTO DE SUGERENCIA*/
-
-    .textSug {
-        position: relative;
-        width: 500px;
-    }
-}
 
 /* TELEFONO */
 
