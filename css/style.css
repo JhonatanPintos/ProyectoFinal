@@ -9,6 +9,43 @@
     color: cyan;
 }
 
+.botones{
+    background-color: blueviolet;
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+.botones:hover{
+    background-color: cyan;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+
+}
+
+.fuenteNav{
+    text-align: center;
+}
+
+.fuenteNav a{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fuenteNav a:hover{
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.formularios{
+    font-weight: bold;
+}
+
 /* NOTICIAS DEL LADO IZQUIERDO */
 
 .noticiaIzquierda {
@@ -84,6 +121,10 @@
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.footer a:hover{
+    color: cyan;
 }
 
 .ini {
