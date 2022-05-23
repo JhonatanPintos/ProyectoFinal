@@ -1,0 +1,17 @@
+/* NAVBAR */
+
+.fuenteNav {
+  text-align: center;
+
+  a {
+    color: $color-base;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+      color: $color-baseHover;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+/* NOTICIAS DEL LADO DERECHO */
+
+.noticiaDerecha {
+    display: grid;
+    grid-template-areas: "parrafoDer fotoDer fotoDer" "parrafoDer fotoDer fotoDer" "comentarioDer fotoDer fotoDer";
+  }
+  
+  .fotoDer {
+    grid-area: fotoDer;
+  }
+  
+  .parrafoDer {
+    grid-area: parrafoDer;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+  }
+  
+  .comentarioDer {
+    grid-area: comentarioDer;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+  }

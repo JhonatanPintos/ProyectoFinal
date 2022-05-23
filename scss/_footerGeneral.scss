@@ -1,0 +1,44 @@
+/* FOOTER GENERAL */
+
+.footer {
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+  
+    li {
+      display: inline-block;
+    }
+  
+    a {
+      color: $color-base;
+      text-decoration: none;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+  
+      &:hover {
+        color: $color-baseHover;
+      }
+    }
+  }
+  
+  .ini {
+    position: relative;
+    right: 15px;
+  }
+  
+  .sug {
+    position: relative;
+    right: 5px;
+  }
+  
+  .sep {
+    position: relative;
+    left: 5px;
+  }
+  
+  .nos {
+    position: relative;
+    left: 15px;
+  }

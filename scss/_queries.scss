@@ -1,0 +1,43 @@
+/* QUERIES */
+
+@media screen and (max-width: 900px) {
+    /* NOTICIA IZQUIERDA */
+  
+    .comentarioIzq {
+      max-width: 50%;
+    }
+  
+    .parrafoIzq {
+      max-width: 70%;
+    }
+  
+    .fotoIzq {
+      margin: auto;
+    }
+  
+    .noticiaIzquierda {
+      justify-content: center;
+      display: grid;
+      grid-template-areas: "fotoIzq fotoIzq fotoIzq" "parrafoIzq parrafoIzq parrafoIzq" "comentarioIzq comentarioIzq comentarioIzq";
+    }
+  
+    /* NOTICIA DERECHA */
+  
+    .noticiaDerecha {
+      justify-content: center;
+      display: grid;
+      grid-template-areas: "fotoDer fotoDer fotoDer" "parrafoDer parrafoDer parrafoDer" "comentarioDer comentarioDer comentarioDer";
+    }
+  
+    .comentarioDer {
+      max-width: 50%;
+    }
+  
+    .parrafoDer {
+      max-width: 70%;
+    }
+  
+    .fotoDer {
+      margin: auto;
+    }
+  }

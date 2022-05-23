@@ -1,0 +1,24 @@
+/* NOTICIAS DEL LADO IZQUIERDO */
+
+.noticiaIzquierda {
+    display: grid;
+    grid-template-areas: "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq comentarioIzq";
+  }
+  
+  .fotoIzq {
+    grid-area: fotoIzq;
+  }
+  
+  .parrafoIzq {
+    grid-area: parrafoIzq;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+  }
+  
+  .comentarioIzq {
+    grid-area: comentarioIzq;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+  }

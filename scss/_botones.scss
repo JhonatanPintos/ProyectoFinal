@@ -1,0 +1,19 @@
+/* BOTONES */
+
+@import "variables";
+
+.botones {
+    background-color: $color-base;
+    color: $color-baseHover;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+  
+    &:hover {
+      background-color: $color-baseHover;
+      color: $color-base;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: none;
+    }
+  }
