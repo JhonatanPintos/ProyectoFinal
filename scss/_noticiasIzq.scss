@@ -13,10 +13,10 @@
   
   .parrafoIzq {
     grid-area: parrafoIzq;
-    @include posicion
+    @include posicionN
   }
   
   .comentarioIzq {
     grid-area: comentarioIzq;
-    @include posicion
+    @include posicionN
   }

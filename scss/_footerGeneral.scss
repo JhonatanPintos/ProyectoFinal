@@ -1,5 +1,7 @@
 /* FOOTER GENERAL */
 
+@import "variables";
+
 .footer {
     background-color: black;
     display: grid;
@@ -24,21 +26,21 @@
   }
   
   .ini {
-    position: relative;
-    right: 15px;
+    position: map-get($mapFooter, posicionF);
+    right: map-get($mapFooter, alineacionEx);
   }
   
   .sug {
-    position: relative;
-    right: 5px;
+    position: map-get($mapFooter, posicionF);
+    right: map-get($mapFooter, alineacionIn);;
   }
   
   .sep {
-    position: relative;
-    left: 5px;
+    position: map-get($mapFooter, posicionF);
+    right: map-get($mapFooter, alineacionIn);
   }
   
   .nos {
-    position: relative;
-    left: 15px;
+    position: map-get($mapFooter, posicionF);
+    right: map-get($mapFooter, alineacionEx);
   }

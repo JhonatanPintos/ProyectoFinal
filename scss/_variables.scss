@@ -4,8 +4,12 @@ $color-baseHover: cyan;
 
 //MIXIN para noticias
 
-@mixin posicion {
+@mixin posicionN {
     text-align: center;
     margin: auto;
     padding: 0%;    
 }
+
+//MAP FOOTER
+
+$mapFooter: (posicionF: relative, alineacionEx: 15px, alineacionIn: 5px);
