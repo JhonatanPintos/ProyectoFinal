@@ -1,0 +1,1 @@
+Bueno, aclaro lo que se hizo en este caso, agregue un "map get" y un "mixin" dentro del archivo scss llamado "_variables.scss" que estan aplicados en sus distintos arhivos scss (estan aclarados donde dentro de "_variables.scss") y agregue un "extend" dentro de "_botones.scss", tambien agregue en todos los html, una linea de keywords
