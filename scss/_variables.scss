@@ -1,3 +1,11 @@
 // Para los botones y navbar
 $color-base: blueviolet;
 $color-baseHover: cyan;
+
+//MIXIN para noticias
+
+@mixin posicion {
+    text-align: center;
+    margin: auto;
+    padding: 0%;    
+}

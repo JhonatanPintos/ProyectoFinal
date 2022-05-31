@@ -1,5 +1,7 @@
 /* NOTICIAS DEL LADO IZQUIERDO */
 
+@import "variables";
+
 .noticiaIzquierda {
     display: grid;
     grid-template-areas: "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq comentarioIzq";
@@ -11,14 +13,10 @@
   
   .parrafoIzq {
     grid-area: parrafoIzq;
-    text-align: center;
-    margin: auto;
-    padding: 0%;
+    @include posicion
   }
   
   .comentarioIzq {
     grid-area: comentarioIzq;
-    text-align: center;
-    margin: auto;
-    padding: 0%;
+    @include posicion
   }
