@@ -10,10 +10,8 @@
     border: none;
   
     &:hover {
+      @extend .botones;
       background-color: $color-baseHover;
       color: $color-base;
-      text-transform: uppercase;
-      font-weight: bold;
-      border: none;
     }
   }

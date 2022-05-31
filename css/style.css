@@ -8,7 +8,7 @@
   color: cyan; }
 
 /* BOTONES */
-.botones {
+.botones, .botones:hover {
   background-color: blueviolet;
   color: cyan;
   text-transform: uppercase;
@@ -16,10 +16,7 @@
   border: none; }
   .botones:hover {
     background-color: cyan;
-    color: blueviolet;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none; }
+    color: blueviolet; }
 
 /* NAVBAR */
 .fuenteNav {
@@ -104,11 +101,11 @@
 
 .sep {
   position: relative;
-  right: 5px; }
+  left: 5px; }
 
 .nos {
   position: relative;
-  right: 15px; }
+  left: 15px; }
 
 /* NOSOTROS */
 .marPad {

@@ -37,10 +37,10 @@
   
   .sep {
     position: map-get($mapFooter, posicionF);
-    right: map-get($mapFooter, alineacionIn);
+    left: map-get($mapFooter, alineacionIn);
   }
   
   .nos {
     position: map-get($mapFooter, posicionF);
-    right: map-get($mapFooter, alineacionEx);
+    left: map-get($mapFooter, alineacionEx);
   }
