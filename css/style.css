@@ -18,6 +18,18 @@
     background-color: cyan;
     color: blueviolet; }
 
+/* BOTONES COMENTARIOS */
+.botonesC, .botonesC:hover {
+  background-color: blueviolet;
+  color: cyan;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; }
+  .botonesC:hover {
+    background-color: cyan;
+    color: blueviolet; }
+
 /* NAVBAR */
 .fuenteNav {
   text-align: center; }
@@ -158,3 +170,13 @@
     left: auto;
     position: relative;
     top: 5px; } }
+
+/* COMENTARIOS */
+.comentario {
+  border: 2px solid blueviolet;
+  border-radius: 30px;
+  outline: none; }
+  .comentario:hover {
+    border: 2px solid cyan; }
+  .comentario::placeholder {
+    text-align: center; }

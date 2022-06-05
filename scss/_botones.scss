@@ -3,15 +3,32 @@
 @import "variables";
 
 .botones {
-    background-color: $color-base;
-    color: $color-baseHover;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-  
-    &:hover {
-      @extend .botones;
-      background-color: $color-baseHover;
-      color: $color-base;
-    }
+  background-color: $color-base;
+  color: $color-baseHover;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+
+  &:hover {
+    @extend .botones;
+    background-color: $color-baseHover;
+    color: $color-base;
   }
+}
+
+/* BOTONES COMENTARIOS */
+
+.botonesC {
+  background-color: $color-base;
+  color: $color-baseHover;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+
+  &:hover {
+    @extend .botonesC;
+    background-color: $color-baseHover;
+    color: $color-base;
+  }
+}

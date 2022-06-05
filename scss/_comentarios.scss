@@ -1,0 +1,17 @@
+/* COMENTARIOS */
+
+@import "variables";
+
+.comentario {
+    border: 2px solid $color-base;
+    border-radius: 30px;
+    outline: none;
+
+    &:hover {
+        border: 2px solid $color-baseHover;
+    }
+
+    &::placeholder {
+        text-align: center;
+    }
+}
