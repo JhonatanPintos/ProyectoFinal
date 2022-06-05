@@ -18,5 +18,7 @@
   
   .comentarioDer {
     grid-area: comentarioDer;
+    position: relative;
+    bottom: 5px;
     @include posicionN
   }

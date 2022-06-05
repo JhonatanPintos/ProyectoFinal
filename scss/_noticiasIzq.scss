@@ -18,5 +18,7 @@
   
   .comentarioIzq {
     grid-area: comentarioIzq;
+    position: relative;
+    bottom: 5px;
     @include posicionN
   }
