@@ -5,93 +5,70 @@
   background-size: cover;
   background-position: 50%;
   background-color: #343A46;
-  color: cyan;
-}
+  color: cyan; }
 
 /* BOTONES */
-.botones,
-.botones:hover {
+.botones, .botones:hover {
   background-color: blueviolet;
   color: cyan;
   text-transform: uppercase;
   font-weight: bold;
-  border: none;
-}
-
-.botones:hover {
-  background-color: cyan;
-  color: blueviolet;
-}
+  border: none; }
+  .botones:hover {
+    background-color: cyan;
+    color: blueviolet; }
 
 /* BOTONES COMENTARIOS */
-.botonesC,
-.botonesC:hover {
+.botonesC, .botonesC:hover {
   background-color: blueviolet;
   color: cyan;
   text-transform: uppercase;
   font-weight: bold;
   border: none;
-  border-radius: 30px;
-}
-
-.botonesC:hover {
-  background-color: cyan;
-  color: blueviolet;
-}
+  border-radius: 30px; }
+  .botonesC:hover {
+    background-color: cyan;
+    color: blueviolet; }
 
 /* COMENTARIOS */
 .comentario {
   border: 2px solid blueviolet;
   border-radius: 30px;
-  outline: none;
-}
-
-.comentario:hover {
-  border: 2px solid cyan;
-}
-
-.comentario::placeholder {
-  text-align: center;
-}
+  outline: none; }
+  .comentario:hover {
+    border: 2px solid cyan; }
+  .comentario::placeholder {
+    text-align: center; }
 
 /* NAVBAR */
 .fuenteNav {
-  text-align: center;
-}
-
-.fuenteNav a {
-  color: blueviolet;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.fuenteNav a:hover {
-  color: cyan;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  text-align: center; }
+  .fuenteNav a {
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: bold; }
+    .fuenteNav a:hover {
+      color: cyan;
+      text-transform: uppercase;
+      font-weight: bold; }
 
 /* FORMULARIOS */
 .formularios {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* NOTICIAS DEL LADO IZQUIERDO */
 .noticiaIzquierda {
   display: grid;
-  grid-template-areas: "fotoIzq fotoIzq parrafoIzq""fotoIzq fotoIzq parrafoIzq""fotoIzq fotoIzq comentarioIzq";
-}
+  grid-template-areas: "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq comentarioIzq"; }
 
 .fotoIzq {
-  grid-area: fotoIzq;
-}
+  grid-area: fotoIzq; }
 
 .parrafoIzq {
   grid-area: parrafoIzq;
   text-align: center;
   margin: auto;
-  padding: 0%;
-}
+  padding: 0%; }
 
 .comentarioIzq {
   grid-area: comentarioIzq;
@@ -99,25 +76,21 @@
   bottom: 5px;
   text-align: center;
   margin: auto;
-  padding: 0%;
-}
+  padding: 0%; }
 
 /* NOTICIAS DEL LADO DERECHO */
 .noticiaDerecha {
   display: grid;
-  grid-template-areas: "parrafoDer fotoDer fotoDer""parrafoDer fotoDer fotoDer""comentarioDer fotoDer fotoDer";
-}
+  grid-template-areas: "parrafoDer fotoDer fotoDer" "parrafoDer fotoDer fotoDer" "comentarioDer fotoDer fotoDer"; }
 
 .fotoDer {
-  grid-area: fotoDer;
-}
+  grid-area: fotoDer; }
 
 .parrafoDer {
   grid-area: parrafoDer;
   text-align: center;
   margin: auto;
-  padding: 0%;
-}
+  padding: 0%; }
 
 .comentarioDer {
   grid-area: comentarioDer;
@@ -125,8 +98,7 @@
   bottom: 5px;
   text-align: center;
   margin: auto;
-  padding: 0%;
-}
+  padding: 0%; }
 
 /* FOOTER GENERAL */
 .footer {
@@ -136,128 +108,88 @@
   text-align: center;
   border: 15px solid black;
   position: relative;
-  top: 10px;
-}
-
-.footer li {
-  display: inline-block;
-}
-
-.footer a {
-  color: blueviolet;
-  text-decoration: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.footer a:hover {
-  color: cyan;
-}
+  top: 10px; }
+  .footer li {
+    display: inline-block; }
+  .footer a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold; }
+    .footer a:hover {
+      color: cyan; }
 
 .ini {
   position: relative;
-  right: 15px;
-}
+  right: 15px; }
 
 .sug {
   position: relative;
-  right: 5px;
-}
+  right: 5px; }
 
 .sep {
   position: relative;
-  left: 5px;
-}
+  left: 5px; }
 
 .nos {
   position: relative;
-  left: 15px;
-}
+  left: 15px; }
 
 /* NOSOTROS */
 .marPad {
   margin: auto;
-  padding: 1%;
-}
+  padding: 1%; }
 
 /* QUERIES */
 @media screen and (max-width: 900px) {
-
   /* NOTICIA IZQUIERDA */
   .comentarioIzq {
-    max-width: 50%;
-  }
-
+    max-width: 50%; }
   .parrafoIzq {
-    max-width: 70%;
-  }
-
+    max-width: 70%; }
   .fotoIzq {
-    margin: auto;
-  }
-
+    margin: auto; }
   .noticiaIzquierda {
     justify-content: center;
     display: grid;
-    grid-template-areas: "fotoIzq fotoIzq fotoIzq""parrafoIzq parrafoIzq parrafoIzq""comentarioIzq comentarioIzq comentarioIzq";
-  }
-
+    grid-template-areas: "fotoIzq fotoIzq fotoIzq" "parrafoIzq parrafoIzq parrafoIzq" "comentarioIzq comentarioIzq comentarioIzq"; }
   /* NOTICIA DERECHA */
   .noticiaDerecha {
     justify-content: center;
     display: grid;
-    grid-template-areas: "fotoDer fotoDer fotoDer""parrafoDer parrafoDer parrafoDer""comentarioDer comentarioDer comentarioDer";
-  }
-
+    grid-template-areas: "fotoDer fotoDer fotoDer" "parrafoDer parrafoDer parrafoDer" "comentarioDer comentarioDer comentarioDer"; }
   .comentarioDer {
-    max-width: 50%;
-  }
-
+    max-width: 50%; }
   .parrafoDer {
-    max-width: 70%;
-  }
-
+    max-width: 70%; }
   .fotoDer {
-    margin: auto;
-  }
-}
+    margin: auto; } }
 
 /* QUERIES ESPECIFICOS */
 /* TELEFONO */
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-
   /* FOOTER */
   .footer li {
     justify-content: center;
-    display: grid;
-  }
-
+    display: grid; }
   .ini {
     right: auto;
     position: relative;
-    bottom: 10px;
-  }
-
+    bottom: 10px; }
   .sug {
     right: auto;
     position: relative;
-    bottom: 5px;
-  }
-
+    bottom: 5px; }
   .sep {
-    left: auto;
-  }
-
+    left: auto; }
   .nos {
     left: auto;
     position: relative;
-    top: 5px;
-  }
-
+    top: 5px; }
   /* COMENTARIO */
   .comentario {
     position: relative;
-    bottom: 3px;
-  }
-}
+    bottom: 3px; }
+  .bodyIndex {
+    background-image: none; } }
