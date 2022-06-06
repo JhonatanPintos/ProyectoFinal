@@ -30,6 +30,11 @@
     background-color: cyan;
     color: blueviolet; }
 
+/* BOTONES ESPECIFICOS */
+.botonesE {
+  display: flex;
+  max-width: 70%; }
+
 /* COMENTARIOS */
 .comentario {
   border: 2px solid blueviolet;
@@ -171,22 +176,16 @@
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   /* FOOTER */
   .footer li {
-    justify-content: center;
-    display: grid; }
+    display: flex;
+    justify-content: center; }
   .ini {
-    right: auto;
-    position: relative;
-    bottom: 10px; }
+    right: auto; }
   .sug {
-    right: auto;
-    position: relative;
-    bottom: 5px; }
+    right: auto; }
   .sep {
     left: auto; }
   .nos {
-    left: auto;
-    position: relative;
-    top: 5px; }
+    left: auto; }
   /* COMENTARIO */
   .comentario {
     position: relative;

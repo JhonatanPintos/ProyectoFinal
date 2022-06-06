@@ -6,20 +6,16 @@
     /* FOOTER */
   
     .footer li {
+      display: flex;
       justify-content: center;
-      display: grid;
     }
   
     .ini {
       right: auto;
-      position: relative;
-      bottom: 10px;
     }
   
     .sug {
       right: auto;
-      position: relative;
-      bottom: 5px;
     }
   
     .sep {
@@ -28,8 +24,6 @@
   
     .nos {
       left: auto;
-      position: relative;
-      top: 5px;
     }
 
     /* COMENTARIO */
