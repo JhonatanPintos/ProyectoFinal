@@ -18,6 +18,10 @@
   
   .comentarioDer {
     grid-area: comentarioDer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
     position: relative;
     bottom: 5px;
     @include posicionN

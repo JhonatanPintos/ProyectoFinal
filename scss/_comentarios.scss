@@ -5,6 +5,7 @@
 .comentario {
     border: 2px solid $color-base;
     border-radius: 30px;
+    overflow: hidden;
     outline: none;
 
     &:hover {
