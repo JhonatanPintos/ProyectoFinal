@@ -30,11 +30,6 @@
     background-color: cyan;
     color: blueviolet; }
 
-/* BOTONES ESPECIFICOS */
-.botonesE {
-  display: flex;
-  max-width: 70%; }
-
 /* COMENTARIOS */
 .comentario {
   border: 2px solid blueviolet;
@@ -173,7 +168,7 @@
 
 /* QUERIES ESPECIFICOS */
 /* TELEFONO */
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   /* FOOTER */
   .footer li {
     display: flex;
