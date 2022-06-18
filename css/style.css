@@ -149,6 +149,10 @@
 .marPad {
   margin: auto;
   padding: 1%; }
+  .marPad a {
+    color: cyan; }
+    .marPad a:hover {
+      color: blueviolet; }
 
 /* QUERIES */
 @media screen and (max-width: 900px) {

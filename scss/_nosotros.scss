@@ -3,4 +3,10 @@
 .marPad {
     margin: auto;
     padding: 1%;
+    a{
+      color: cyan;
+      &:hover{
+        color: blueviolet;
+      }
+    }
   }
