@@ -1,12 +1,72 @@
 /* NOSOTROS */
 
 .marPad {
-    margin: auto;
-    padding: 1%;
-    a{
-      color: cyan;
-      &:hover{
-        color: blueviolet;
-      }
+  margin: auto;
+  padding: 1%;
+
+  a {
+    color: cyan;
+
+    &:hover {
+      color: blueviolet;
     }
   }
+}
+
+.contenedorDeCajas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.borde {
+  background: linear-gradient(125deg, blueviolet 35%, cyan 50%, blueviolet 65%);
+  background-repeat: repeat;
+  padding: 5px;
+  border-radius: 15px;
+  transition: all 0.8s;
+  animation: gradient 7s linear infinite;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: -40rem 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.cardUno {
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.cardDos {
+  @extend .cardUno;
+  background-color: blue;
+}
+
+.cardTres {
+  @extend .cardUno;
+  background-color: red;
+}
+
+.textoNosotros {
+  margin: 5px;
+  padding-top: 15px;
+  text-align: center;
+  width: 200px;
+}
