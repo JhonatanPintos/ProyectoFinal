@@ -3,27 +3,33 @@
 @import "variables";
 
 .noticiaIzquierda {
-    display: grid;
-    grid-template-areas: "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq comentarioIzq";
+  margin: 5px;
+  display: grid;
+  grid-template-areas: "fotoIzq fotoIzq parrafoIzq""fotoIzq fotoIzq parrafoIzq""fotoIzq fotoIzq comentarioIzq";
+}
+
+.fotoIzq {
+  grid-area: fotoIzq;
+  margin: auto;
+
+  img {
+    max-width: 350px;
+    max-height: 250px;
   }
-  
-  .fotoIzq {
-    grid-area: fotoIzq;
-    margin: auto;
-  }
-  
-  .parrafoIzq {
-    grid-area: parrafoIzq;
-    @include posicionN
-  }
-  
-  .comentarioIzq {
-    grid-area: comentarioIzq;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    position: relative;
-    bottom: 5px;
-    @include posicionN
-  }
+}
+
+.parrafoIzq {
+  grid-area: parrafoIzq;
+  @include posicionN
+}
+
+.comentarioIzq {
+  grid-area: comentarioIzq;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  bottom: 5px;
+  @include posicionN
+}

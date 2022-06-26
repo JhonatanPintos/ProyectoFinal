@@ -65,12 +65,16 @@
 
 /* NOTICIAS DEL LADO IZQUIERDO */
 .noticiaIzquierda {
+  margin: 5px;
   display: grid;
   grid-template-areas: "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq parrafoIzq" "fotoIzq fotoIzq comentarioIzq"; }
 
 .fotoIzq {
   grid-area: fotoIzq;
   margin: auto; }
+  .fotoIzq img {
+    max-width: 350px;
+    max-height: 250px; }
 
 .parrafoIzq {
   grid-area: parrafoIzq;
@@ -92,12 +96,16 @@
 
 /* NOTICIAS DEL LADO DERECHO */
 .noticiaDerecha {
+  margin: 5px;
   display: grid;
   grid-template-areas: "parrafoDer fotoDer fotoDer" "parrafoDer fotoDer fotoDer" "comentarioDer fotoDer fotoDer"; }
 
 .fotoDer {
   grid-area: fotoDer;
   margin: auto; }
+  .fotoDer img {
+    max-width: 350px;
+    max-height: 250px; }
 
 .parrafoDer {
   grid-area: parrafoDer;
@@ -118,7 +126,7 @@
   padding: 0%; }
 
 /* FOOTER GENERAL */
-.footer {
+.footerGeneral {
   background-color: black;
   display: grid;
   grid-template-rows: auto;
@@ -126,15 +134,15 @@
   border: 15px solid black;
   position: relative;
   top: 10px; }
-  .footer li {
+  .footerGeneral li {
     display: inline-block; }
-  .footer a {
+  .footerGeneral a {
     color: blueviolet;
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold; }
-    .footer a:hover {
+    .footerGeneral a:hover {
       color: cyan; }
 
 .ini {
@@ -186,23 +194,32 @@
     background-position: 0 0; } }
 
 .cardUno, .cardDos, .cardTres {
-  background-color: green;
+  background-image: url(../imagenes/fotoAle.jpg);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 10px;
   width: 200px;
   height: 200px; }
 
 .cardDos {
-  background-color: blue; }
+  background-image: url(../imagenes/fotoYo.jpg);
+  background-size: cover; }
 
 .cardTres {
-  background-color: red; }
+  background-image: url(../imagenes/fotoLucas.jpg);
+  background-size: cover; }
 
 .textoNosotros {
   margin: 5px;
   padding-top: 15px;
   text-align: center;
   width: 200px; }
+  .textoNosotros a {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none; }
+    .textoNosotros a:hover {
+      color: cyan; }
 
 /* QUERIES */
 @media screen and (max-width: 900px) {
@@ -232,8 +249,13 @@
 /* QUERIES ESPECIFICOS */
 /* TELEFONO */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+  /* FOTOS NOTICIAS */
+  .fotoIzq img {
+    max-width: 280px; }
+  .fotoDer img {
+    max-width: 280px; }
   /* FOOTER */
-  .footer li {
+  .footerGeneral li {
     display: flex;
     justify-content: center; }
   .ini {

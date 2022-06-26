@@ -47,7 +47,8 @@
 }
 
 .cardUno {
-  background-color: green;
+  background-image: url(../imagenes/fotoAle.jpg);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 10px;
   width: 200px;
@@ -56,12 +57,14 @@
 
 .cardDos {
   @extend .cardUno;
-  background-color: blue;
+  background-image: url(../imagenes/fotoYo.jpg);
+  background-size: cover;
 }
 
 .cardTres {
   @extend .cardUno;
-  background-color: red;
+  background-image: url(../imagenes/fotoLucas.jpg);
+  background-size: cover;
 }
 
 .textoNosotros {
@@ -69,4 +72,14 @@
   padding-top: 15px;
   text-align: center;
   width: 200px;
+
+  a {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      color: cyan;
+    }
+  }
 }

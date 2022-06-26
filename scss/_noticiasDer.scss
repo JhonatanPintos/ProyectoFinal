@@ -3,27 +3,33 @@
 @import "variables";
 
 .noticiaDerecha {
-    display: grid;
-    grid-template-areas: "parrafoDer fotoDer fotoDer" "parrafoDer fotoDer fotoDer" "comentarioDer fotoDer fotoDer";
+  margin: 5px;
+  display: grid;
+  grid-template-areas: "parrafoDer fotoDer fotoDer""parrafoDer fotoDer fotoDer""comentarioDer fotoDer fotoDer";
+}
+
+.fotoDer {
+  grid-area: fotoDer;
+  margin: auto;
+
+  img {
+    max-width: 350px;
+    max-height: 250px;
   }
-  
-  .fotoDer {
-    grid-area: fotoDer;
-    margin: auto;
-  }
-  
-  .parrafoDer {
-    grid-area: parrafoDer;
-    @include posicionN
-  }
-  
-  .comentarioDer {
-    grid-area: comentarioDer;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    position: relative;
-    bottom: 5px;
-    @include posicionN
-  }
+}
+
+.parrafoDer {
+  grid-area: parrafoDer;
+  @include posicionN
+}
+
+.comentarioDer {
+  grid-area: comentarioDer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  bottom: 5px;
+  @include posicionN
+}

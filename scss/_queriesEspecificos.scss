@@ -3,37 +3,51 @@
 /* TELEFONO */
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
-    /* FOOTER */
-  
-    .footer li {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .ini {
-      right: auto;
-    }
-  
-    .sug {
-      right: auto;
-    }
-  
-    .sep {
-      left: auto;
-    }
-  
-    .nos {
-      left: auto;
-    }
+  /* FOTOS NOTICIAS */
 
-    /* COMENTARIO */
-
-    .comentario{
-      position: relative;
-      bottom: 3px;
-    }
-
-    .bodyIndex{
-      background-image:none;
+  .fotoIzq{
+    img{
+      max-width: 280px;
     }
   }
+
+  .fotoDer{
+    img{
+      max-width: 280px;
+    }
+  }
+
+  /* FOOTER */
+
+  .footerGeneral li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ini {
+    right: auto;
+  }
+
+  .sug {
+    right: auto;
+  }
+
+  .sep {
+    left: auto;
+  }
+
+  .nos {
+    left: auto;
+  }
+
+  /* COMENTARIO */
+
+  .comentario {
+    position: relative;
+    bottom: 3px;
+  }
+
+  .bodyIndex {
+    background-image: none;
+  }
+}
