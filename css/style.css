@@ -223,6 +223,9 @@
 
 /* QUERIES */
 @media screen and (max-width: 900px) {
+  /* BODY */
+  .bodyIndex {
+    background-image: none; }
   /* NOTICIA IZQUIERDA */
   .comentarioIzq {
     max-width: 50%; }
@@ -249,6 +252,9 @@
 /* QUERIES ESPECIFICOS */
 /* TELEFONO */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+  /* BODY */
+  .bodyIndex {
+    background-image: none; }
   /* FOTOS NOTICIAS */
   .fotoIzq img {
     max-width: 280px; }
@@ -269,6 +275,4 @@
   /* COMENTARIO */
   .comentario {
     position: relative;
-    bottom: 3px; }
-  .bodyIndex {
-    background-image: none; } }
+    bottom: 3px; } }

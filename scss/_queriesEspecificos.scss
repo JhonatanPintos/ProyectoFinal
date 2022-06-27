@@ -3,6 +3,12 @@
 /* TELEFONO */
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+  /* BODY */
+
+  .bodyIndex {
+    background-image: none;
+  }
+
   /* FOTOS NOTICIAS */
 
   .fotoIzq{
@@ -45,9 +51,5 @@
   .comentario {
     position: relative;
     bottom: 3px;
-  }
-
-  .bodyIndex {
-    background-image: none;
   }
 }
